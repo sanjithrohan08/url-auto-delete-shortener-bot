@@ -17,7 +17,7 @@ API_HASH = 'ce83bed48c45b28de00f86af5cab6bf6'
 BOT_TOKEN =  "6026872939:AAE7gRPG-sI-n8MXp_3uGBSCmfNquaH25LI"
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
+CACHE_TIME =  300
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/b806ad314d0c415571bde.jpg')).split()
 
